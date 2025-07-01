@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><span class="heading-icon">📝</span>To Do List</div>
+    <div class="firstHead">
+        <div class="addTask">Add Task</div>
+        <div class="filter">
+            <div class="filterText">All</div>
+            <img class="downSvg" src="down.svg" alt="">
+            <div class="drawer">
+                <div class="item1">Completed</div>
+                <div class="item2">Pending</div>
+            </div>
+        </div>
+    </div>
+    <div class="taskBox">
+        <div class="taskCounter active">Please add some task first</div>
+    </div>
+    <div class="taskEdit">
+        <div class="taskEditTitle">Task Details</div> 
+        <div class="taskEditHeading">Task Name</div> 
+        <input type="text">
+        <div class="taskEditHeading">Deadline</div> 
+        <input type="date">
+        <div class="taskEditHeading">Due Time</div> 
+        <input type="time">
+        <div class="submit">Submit</div>
+    </div>
+    <div class="blur"></div>
+</body>
+<script src="script.js"></script>
+</html>
